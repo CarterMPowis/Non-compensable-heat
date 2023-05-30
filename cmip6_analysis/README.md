@@ -36,5 +36,3 @@ number of hours per day.
 This uses existing hours_over_lh files, which contain the daily number of hours per day over LH. It fetches them from a remote bucket in batches.
 
 Hour count files are output from cmip6_daily_lethal_heat_hours.ipynb
-
-## HADISD Analysis Scripts
