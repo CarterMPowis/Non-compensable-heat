@@ -54,9 +54,13 @@ Converts the analysis in the third script to an analysis by warming level, rathe
 
 ### hadisd_lethal_heat_6_largest_distances
 
-For HADISD data, calculate 'lethal distances'. I.E. the distance from the lethal curve according to Vecellio 2022.
+For HADISD data, calculates 'lethal distances'. I.E. the distance from the lethal curve according to Vecellio 2022.
 For this distance data, the 6 largest values through the year are chosen and saved.
 
+## GEV Analysis Scripts
 
+### hadisd_gev_analysis 
+
+Cleans HADISD data, conducts a Kolmogorov-Smirnov test to ensure station block maxima can be described by a GEV distribution, performs a likelihood ratio test to ensure station block maxima are better described by a non-stationary GEV distribution where the location parameter is a linear function of global average temperature, and finally uses fitted non-stationary GEV distributions to calculate return periods for non-compensable heat events under different global warming outcomes. 
 
 
